@@ -5,6 +5,7 @@ dart:
 script:
   - pub run test:test -p content-shell test/test.dart
   - pub run test:test -p firefox test/test.dart
+  
 before_install:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
